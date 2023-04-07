@@ -561,43 +561,47 @@
         <div><span data-temp></span><span>&deg;</span></div>
       </div>
     </template>
-    <template id="hour-row-template"></template>
-    <script type="module" src="/main.js" defer>
+    <template id="hour-row-template">
       <tr class="hour-row">
-         <td>
-           <div class="info-group">
-             <div class="label" data-day></div>
-             <div data-time></div>
-           </div>
-         </td>
-         <td>
-           <img data-icon class="weather-icon" />
-         </td>
-         <td>
-           <div class="info-group">
-             <div class="label">TEMP</div>
-        <div><span data-temp></span><span>&deg;</span></div>
-           </div>
-         </td>
-         <td>
-           <div class="info-group">
-             <div class="label">FL TEMP</div>
-        <div><span data-fl-temp></span><span>&deg;</span></div>
-           </div>
-         </td>
-         <td>
-           <div class="info-group">
-             <div class="label">WIND</div>
-             <div><span data-wind></span><span class="vlaue-sub-info">mph</span></div>
-           </div>
-         </td>
-         <td>
-           <div class="info-group">
-             <div class="label">PRECIP</div>
-             <div><span data-precip></span><span class="vlaue-sub-info">in </span></div>
-           </div>
-         </td>
-       </tr>
-    </script>
+        <td>
+          <div class="info-group">
+            <div class="label" data-day></div>
+            <div data-time></div>
+          </div>
+        </td>
+        <td>
+          <img data-icon class="weather-icon" />
+        </td>
+        <td>
+          <div class="info-group">
+            <div class="label">TEMP</div>
+            <div><span data-temp></span><span>&deg;</span></div>
+          </div>
+        </td>
+        <td>
+          <div class="info-group">
+            <div class="label">FL TEMP</div>
+            <div><span data-fl-temp></span><span>&deg;</span></div>
+          </div>
+        </td>
+        <td>
+          <div class="info-group">
+            <div class="label">WIND</div>
+            <div>
+              <span data-wind></span><span class="vlaue-sub-info">mph</span>
+            </div>
+          </div>
+        </td>
+        <td>
+          <div class="info-group">
+            <div class="label">PRECIP</div>
+            <div>
+              <span data-precip></span><span class="vlaue-sub-info">in </span>
+            </div>
+          </div>
+        </td>
+      </tr>
+    </template>
+    <script type="module" src="/main.js" defer></script>
   </body>
 </html>

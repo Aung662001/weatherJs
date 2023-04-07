@@ -50,7 +50,7 @@ function parseDailyWeather({ daily }) {
   console.log(daily);
   return daily.time.map((time, index) => {
     return {
-      timeStamp: Math.round(time),
+      timeStamp: time,
       iconCode: Math.round(daily.weathercode[index]),
       maxTemp: Math.round(daily.temperature_2m_max[index]),
     };
